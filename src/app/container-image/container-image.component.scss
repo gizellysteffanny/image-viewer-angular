@@ -1,0 +1,24 @@
+$primary-color: #555;
+$white: #fff;
+$font: Arial, Helvetica, sans-serif;
+
+
+.container-image {
+   width: 70%;
+   height: 600px;
+   margin: 30px auto 0 auto;
+}
+.container-image-footer {
+   width: 70%;
+   margin: 0 auto;
+   padding: 10px 15px;
+   box-sizing: border-box;
+   background-color: $primary-color;
+   color: $white;
+   font-family: $font;
+   .columns {
+      transition: .5s all linear;
+      cursor: pointer;
+      user-select: none;
+   }
+}

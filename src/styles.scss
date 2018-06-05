@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+$background-image-viewer: 'path';
+$background-color-viewer: #ccc;
+$primary-color: #555;
+
+.img-container {
+   background-image: url($background-image-viewer);
+   background-color: $background-color-viewer !important;
+   background-repeat: no-repeat;
+   background-size: cover;
+   img {
+      padding: 15px 0;
+      box-sizing: border-box;
+   }
+}
+
+button.default {
+   border-color: $primary-color !important;
+   background-color: $primary-color !important;
+   color: #FFEBF8 !important;
+   opacity: 1 !important;
+   outline: none;
+}
+
+.nav-button-container {
+   opacity: 0;
+}
